@@ -1,0 +1,22 @@
+{
+  "name": "ecma262-multipage",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/devsnek/ecma262-multipage.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/devsnek/ecma262-multipage/issues"
+  },
+  "homepage": "https://github.com/devsnek/ecma262-multipage#readme",
+  "dependencies": {
+    "jsdom": "^16.4.0"
+  }
+}
