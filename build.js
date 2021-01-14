@@ -97,7 +97,7 @@ pages.forEach((e, id) => {
   fs.writeFileSync(`./build/${id}.html`, format(e));
 });
 
-const FIND = 'if (\'#\' + path[index].id === children[i].children[1].getAttribute(\'href\') ) {';
+const FIND = 'if (\'#\' + path[index].id === children[i].children[1].getAttribute(\'href\')) {';
 const REPLACE = 'if (path[index].id === children[i].children[1].getAttribute(\'href\').split(\'#\')[1]) {';
 fs.writeFileSync('./build/ecmarkup.js', fs.readFileSync('./build/ecmarkup.js', 'utf8')
   .replace(FIND, REPLACE));
